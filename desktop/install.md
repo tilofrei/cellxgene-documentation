@@ -51,7 +51,7 @@ pip install cellxgene --upgrade
 To install `cellxgene` alone, run:
 
 ```text
-conda create --yes -n cellxgene python=3.7
+conda create --yes -n cellxgene python=3.10
 conda activate cellxgene
 pip install cellxgene
 ```
@@ -59,7 +59,7 @@ pip install cellxgene
 To install `cellxgene` and the optional `cellxgene prepare`, run:
 
 ```text
-conda create --yes -n cellxgene python=3.7
+conda create --yes -n cellxgene python=3.10
 conda activate cellxgene
 pip install cellxgene[prepare]
 ```
